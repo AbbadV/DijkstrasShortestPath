@@ -8,21 +8,20 @@
 
 #include "nodedata.h"
 
-const int MAXNODES = 100;
+const int MAXNODES = 101;
 
 class GraphM
 {
 public:
+    // default constructor
     GraphM();
-    GraphM(const GraphM &);
-    ~GraphM();
 
     // builds up graph node information and adjacency matrix of edges
     // between each node reading from a data file
-    void buildGraph();
+    void buildGraph(ifstream&);
 
     // insert an edge into graph between two given nodes
-    void insertEdge();
+    void insertEdge(const int, const int, const int);
 
     // remove an edge between two given nodes
     void removeEdge();
@@ -32,11 +31,11 @@ public:
     void findShortestPath();
 
     // display the cost and path from every node to every other node
-    void displayAll();
+    void displayAll() const;
 
     // uses couts to display the shortest distance with path info between
     // the fromNode to toNode
-    void display();
+    void display(const int, const int) const;
 
 
 private:
