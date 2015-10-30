@@ -57,9 +57,9 @@ void GraphM::insertEdge(const int curNode, const int nextNode, const int weight)
 // --------------------- removeEdge -----------------------------------------
 //
 // --------------------------------------------------------------
-void GraphM::removeEdge()
+void GraphM::removeEdge(int curNode, int nextNode)
 {
-
+    C[curNode][nextNode] = 99; // UINT_MAX;
 }
 
 // --------------------- findShortestPath -----------------------------------------
@@ -94,4 +94,15 @@ void GraphM::displayAll() const
 void GraphM::display(const int i, const int i1) const
 {
 
+}
+
+void GraphM::showMatrix(int size) const
+{
+    for (int i = 1; i <= size; i++)
+    {
+        for (int j = 1; j <= size; j++)
+        {
+            cout << i << C[i][j];
+        }
+    }
 }

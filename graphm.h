@@ -27,7 +27,7 @@ public:
     void insertEdge(const int, const int, const int);
 
     // remove an edge between two given nodes
-    void removeEdge();
+    void removeEdge(int, int);
 
     // find the shortest path between every node to every other node in
     // the graph, i.e., TableType T is updated with shortest path information
@@ -39,6 +39,9 @@ public:
     // uses couts to display the shortest distance with path info between
     // the fromNode to toNode
     void display(const int, const int) const;
+
+    // show the matrix
+    void showMatrix(int) const;
 
 private:
     struct TableType

@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c3dc8c4a-9468-4b9c-b339-249bef178fa9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphm.cpp" afterPath="$PROJECT_DIR$/graphm.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphm.h" afterPath="$PROJECT_DIR$/graphm.h" />
     </list>
     <ignored path="DijkstrasShortestPath.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,9 +39,11 @@
           <file leaf-file-name="graphm.h" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/graphm.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.14180672">
-                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
-                  <folding />
+                <state vertical-scroll-proportion="0.677521">
+                  <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#127#148#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -62,8 +65,8 @@
           <file leaf-file-name="graphm.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/graphm.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.57457983">
-                  <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+                <state vertical-scroll-proportion="1.3151261">
+                  <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
                   <folding />
                 </state>
               </provider>
@@ -290,7 +293,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#127#148#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -316,7 +321,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#127#148#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -374,16 +381,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphm.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14180672">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
-          <folding />
+        <state vertical-scroll-proportion="0.677521">
+          <caret line="43" column="23" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
+          <folding>
+            <element signature="e#127#148#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graphm.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57457983">
-          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+        <state vertical-scroll-proportion="1.3151261">
+          <caret line="104" column="33" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
           <folding />
         </state>
       </provider>
