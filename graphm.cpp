@@ -51,7 +51,7 @@ void GraphM::buildGraph(ifstream &infile1)
 // --------------------------------------------------------------
 void GraphM::insertEdge(const int curNode, const int nextNode, const int weight)
 {
-
+    C[curNode][nextNode] = weight;
 }
 
 // --------------------- removeEdge -----------------------------------------

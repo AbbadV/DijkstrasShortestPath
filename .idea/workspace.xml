@@ -12,11 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3dc8c4a-9468-4b9c-b339-249bef178fa9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DijkstrasShortestPath.iml" afterPath="$PROJECT_DIR$/.idea/DijkstrasShortestPath.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphm.cpp" afterPath="$PROJECT_DIR$/graphm.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphm.h" afterPath="$PROJECT_DIR$/graphm.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DijkstrasShortestPath.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +39,7 @@
             <entry file="file://$PROJECT_DIR$/graphm.h">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.14180672">
-                  <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
                   <folding />
                 </state>
               </provider>
@@ -66,8 +62,8 @@
           <file leaf-file-name="graphm.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/graphm.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.34663865">
-                  <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.57457983">
+                  <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -358,14 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphm.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14180672">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nodedata.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -384,10 +372,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/graphm.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14180672">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/graphm.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34663865">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.57457983">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
           <folding />
         </state>
       </provider>
