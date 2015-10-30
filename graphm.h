@@ -7,6 +7,9 @@
 
 
 #include "nodedata.h"
+#include <climits>
+#include <iomanip>
+
 
 const int MAXNODES = 101;
 
@@ -36,7 +39,6 @@ public:
     // uses couts to display the shortest distance with path info between
     // the fromNode to toNode
     void display(const int, const int) const;
-
 
 private:
     struct TableType
