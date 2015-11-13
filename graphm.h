@@ -1,60 +1,64 @@
+// --------------------- graphm.h -----------------------------------------
 //
-// Created by Shyawn Karim on 10/26/15.
-//
+// Shyawn Karim, CSS 343
+// Created:         October 26, 2015
+// Last Modified:   Novemeber 12, 2015
+// --------------------------------------------------------------
+// Purpose: Implement Dijkstra's shortest path algorithm by reading in a
+// data file consisting of many lines and be able to find the lowest cost
+// paths.  Then display the cost and path from every node to to every
+// other node.
+// --------------------------------------------------------------
+// Assumptions: All input data is assumed to be correctly formatted
+// and valid.
+// --------------------------------------------------------------
+
 
 #ifndef DIJKSTRASSHORTESTPATH_GRAPHM_H
 #define DIJKSTRASSHORTESTPATH_GRAPHM_H
 
 
 #include "nodedata.h"
-#include <climits>
-#include <iomanip>
+#include <fstream>
+#include <iostream>
 
+using namespace std;
 
-const int MAXNODES = 101;
+int const MAXNODES_M = 101;                 // constant size for T and C table
+
 
 class GraphM
 {
 public:
-    // default constructor
+    // Constructor
     GraphM();
 
-    // builds up graph node information and adjacency matrix of edges
-    // between each node reading from a data file
+    // Functions
     void buildGraph(ifstream&);
-
-    // insert an edge into graph between two given nodes
-    void insertEdge(const int, const int, const int);
-
-    // remove an edge between two given nodes
-    void removeEdge(int, int);
-
-    // find the shortest path between every node to every other node in
-    // the graph, i.e., TableType T is updated with shortest path information
     void findShortestPath();
-
-    // display the cost and path from every node to every other node
-    void displayAll() const;
-
-    // uses couts to display the shortest distance with path info between
-    // the fromNode to toNode
-    void display(const int, const int) const;
-
-    // show the matrix
-    void showMatrix(int) const;
+    bool insertEdge(int from, int to, int dist);
+    bool removeEdge(int from, int to);
+    void display(int from, int to);
+    void displayAll();
 
 private:
     struct TableType
     {
-        bool visited;                   // whether node has been visited
-        int dist;                       // shortest distance from source known so far
-        int path;                       // previous node in path of min dist
+        bool visited;                       // whether node has been visited
+        int dist;                           // shortest distance from source known so far
+        int path;                           // previous node in path of min dist
     };
 
-    NodeData data[MAXNODES];            // data for graph nodes
-    int C[MAXNODES][MAXNODES];          // cost array, the adjacency matrix
-    int size;                           // number of nodes in the graph
-    TableType T[MAXNODES][MAXNODES];    // stores visited, distance, path
+    NodeData data[MAXNODES_M];              // data for graph nodes
+    int C[MAXNODES_M][MAXNODES_M];          // cost array, the adjacency matrix
+    int size;                               // number of nodes in the graph
+    TableType T[MAXNODES_M][MAXNODES_M];    // stores visited, distance, path
+
+    // helper for display()
+    void findData(int from, int to);
+
+    // helper for display() and displayAll()
+    void findPath(int from, int to);
 };
 
 

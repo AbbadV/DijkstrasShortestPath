@@ -39,10 +39,10 @@ class GraphM {
    public:
       ...
    private:
-      NodeData data[MAXNODES];              // data for graph nodes 
-      int C[MAXNODES][MAXNODES];            // Cost array, the adjacency matrix
+      NodeData data[MAXNODES_M];              // data for graph nodes
+      int C[MAXNODES_M][MAXNODES_M];            // Cost array, the adjacency matrix
       int size;                             // number of nodes in the graph
-      TableType T[MAXNODES][MAXNODES];      // stores visited, distance, path
+      TableType T[MAXNODES_M][MAXNODES_M];      // stores visited, distance, path
    };
 
 Here, TableType is a struct to keep the current shortest distance (and associated path info) known at any point in the algorithm.

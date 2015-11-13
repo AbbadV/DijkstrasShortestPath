@@ -3,13 +3,13 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphl.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphl.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/graphm.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/graphm.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/nodedata.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/nodedata.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/tabletype.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/tabletype.h" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
